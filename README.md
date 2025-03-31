@@ -2,17 +2,8 @@
 
 ## **Summary**  
 The goal of this project is to develop an optimized code sample demonstrating batch prediction with the Gemini APIs, specifically addressing long-context scenarios. A major challenge in this project is Context Window Overflow in Long Transcripts, where large transcripts exceed the API's token limit, leading to truncated inputs and loss of critical information.
-To solve this, the implementation will use Hierarchical Chunking with Semantic Retrieval, an advanced context management technique that ensures only relevant transcript portions are processed. The key features include:
 
-2. Batch Prediction Optimization – Efficiently submitting multiple queries in a structured manner.
-
-3. Long Context Handling – Utilizing hierarchical chunking and semantic retrieval.
-
-4. Context Caching – Storing and reusing context across interconnected questions.
-
-5. Output Structuring & Error Handling – Ensuring robust execution and clear response formatting.
-
-This project will provide a reusable code sample demonstrating best practices for handling large-scale input efficiently.
+To solve this, the implementation will use Sentence Transformers for Semantic Chunking and Retrieval, an advanced technique leveraging embedding-based similarity search to ensure only the most relevant transcript portions are processed. 
 
 ## **Benefits to the Community**  
 Many AI applications require extracting information from extensive sources such as educational videos, legal documents, and research papers. The challenge arises when:
@@ -93,7 +84,7 @@ This project addresses these challenges with Hierarchical Chunking with Semantic
 | **Phase** | **Week** | **Task** |
 |-----------|------------|---------|
 | Community Bonding | Weeks 1-3 | Engage with the community, refine project scope. |
-| Phase 1 | Weeks 4-7 | Implement batch processing module with adaptive batch sizing |
+| Phase 1 | Weeks 4-7 | Develop semantic chunking using sentence-transformers. |
 | Phase 2 | Weeks 8-11 | Implement context-aware question handling for follow-ups |
 | Phase 3 | Weeks 12-14 | Finalize documentation, testing, and community feedback. |
 
