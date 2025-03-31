@@ -2,8 +2,7 @@
 
 ## **Summary**  
 The goal of this project is to develop an optimized code sample demonstrating batch prediction with the Gemini APIs, specifically addressing long-context scenarios. A major challenge in this project is Context Window Overflow in Long Transcripts, where large transcripts exceed the API's token limit, leading to truncated inputs and loss of critical information.
-
-1. To solve this, the implementation will use Hierarchical Chunking with Semantic Retrieval, an advanced context management technique that ensures only relevant transcript portions are processed. The key features include:
+To solve this, the implementation will use Hierarchical Chunking with Semantic Retrieval, an advanced context management technique that ensures only relevant transcript portions are processed. The key features include:
 
 2. Batch Prediction Optimization – Efficiently submitting multiple queries in a structured manner.
 
